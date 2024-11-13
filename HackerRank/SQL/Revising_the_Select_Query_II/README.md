@@ -1,10 +1,12 @@
 # Revising the Select Query II
 
-**Platform**: HackerRank  
-**Category**: SQL
-**Difficulty**: Easy
-**URL**: https://www.hackerrank.com/challenges/revising-the-select-query-2/problem
+**Platform**: HackerRank
 
+**Category**: SQL
+
+**Difficulty**: Easy
+
+**URL**: https://www.hackerrank.com/challenges/revising-the-select-query-2/problem
 
 ## Problem Description
 
@@ -19,8 +21,6 @@ The CITY table is described as follows:
 | COUNTRYCODE | VARCHAR2(3) |
 | DISTRICT | VARCHAR2(20) |
 | POPULATION | NUMBER |
-
-
 
 ## Solution
 

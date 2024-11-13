@@ -1,8 +1,11 @@
 # Revising the Select Query I
 
-**Platform**: HackerRank  
+**Platform**: HackerRank
+
 **Category**: SQL
+
 **Difficulty**: Easy
+
 **URL**: https://www.hackerrank.com/challenges/revising-the-select-query/problem
 
 ## Problem Description
@@ -18,8 +21,6 @@ The CITY table is described as follows:
 | COUNTRYCODE | VARCHAR2(3) |
 | DISTRICT | VARCHAR2(20) |
 | POPULATION | NUMBER |
-
-
 
 ## Solution
 
