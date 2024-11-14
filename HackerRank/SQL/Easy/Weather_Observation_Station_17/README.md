@@ -1,4 +1,4 @@
-# Weather Observation Station 8
+# Weather Observation Station 17
 
 **Platform**: HackerRank
 
@@ -6,11 +6,11 @@
 
 **Difficulty**: Easy
 
-**URL**: https://www.hackerrank.com/challenges/weather-observation-station-8/problem
+**URL**: https://www.hackerrank.com/challenges/weather-observation-station-17/problem
 
 ## Problem Description
 
-Query the list of CITY names from STATION which have vowels (i.e., a, e, i, o, and u) as both their first and last characters. Your result cannot contain duplicates.
+Query the Western Longitude (LONG_W)where the smallest Northern Latitude (LAT_N) in STATION is greater than *38.7780*. Round your answer to *4* decimal places.
 
 Input Format
 

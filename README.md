@@ -10,6 +10,7 @@ Each problem is organized into subfolders by **platform**, **category**, and **p
 
 - **Platform**: Name of the platform where the problem was published (e.g., LeetCode, HackerRank, Codewars).
 - **Category**: Type of problem (e.g., SQL, Arrays, Strings).
+- **Difficulty**: Difficulty of the problem (Easy, Medium, Hard, etc).
 - **Problem Name**: Descriptive name of the problem.
 
 Each problem includes its own `README.md` with specific details, such as the problem statement and other relevant information.

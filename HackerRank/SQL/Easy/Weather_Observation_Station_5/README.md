@@ -36,8 +36,7 @@ Explanation
 
 When ordered alphabetically, the CITY names are listed as ABC, DEF, PQRS, and WXY, with lengths  and . The longest name is PQRS, but there are  options for shortest named city. Choose ABC, because it comes first alphabetically.
 
-Note
-You can write two separate queries to get the desired output. It need not be a single query.
+Note: You can write two separate queries to get the desired output. It need not be a single query.
 
 ## Solution
 

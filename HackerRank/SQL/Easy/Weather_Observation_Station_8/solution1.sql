@@ -1,4 +1,3 @@
-/*Solution 1*/
 SELECT DISTINCT CITY FROM STATION
 WHERE (
         LOWER(CITY) LIKE 'a%' OR
@@ -15,5 +14,3 @@ WHERE (
         LOWER(CITY) LIKE '%o' OR
         LOWER(CITY) LIKE '%u'
     )
-/*Solution 2*/
-select distinct city from station where city regexp '^[AEIOUaeiou].*[AEIOUaeiou]$';

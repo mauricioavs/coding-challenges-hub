@@ -28,12 +28,12 @@ Note: Salary is per month.
 
 Constraints
 
-*1000 < Salary < 10^5*.
+*1000 < Salary < 10<sup>5</sup>*.
 
 Sample Input
 
 | ID | Name | Salary |
-|---|---|---|
+|-|-|-|
 | 1 | Kristeen | 1420 |
 | 2 | Ashley | 2006 |
 | 3 | Julia | 2210 |
