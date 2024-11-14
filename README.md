@@ -6,7 +6,7 @@ This repository contains solutions to coding problems from different platforms, 
 
 ## Structure
 
-Each problem is organized into subfolders by **platform**, **category**, and **problem name** for easy navigation and search.
+Each problem is organized into subfolders by **platform**, **category**, **difficulty**,and **problem name** for easy navigation and search.
 
 - **Platform**: Name of the platform where the problem was published (e.g., LeetCode, HackerRank, Codewars).
 - **Category**: Type of problem (e.g., SQL, Arrays, Strings).
