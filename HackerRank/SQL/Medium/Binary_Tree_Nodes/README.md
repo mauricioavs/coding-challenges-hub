@@ -42,14 +42,25 @@ Sample Output
 3 Leaf  
 5 Root  
 6 Leaf  
-8 Inner
+8 Inner  
 9 Leaf  
 
 Explanation
 
 The Binary Tree below illustrates the sample:
 
-![Binary Tree](binary_tree.png)
+![Binary Tree](assets/binary_tree.png)
+
+```mermaid
+graph TD;
+  1 --> 2;
+  3 --> 2;
+  6 --> 8;
+  9 --> 8;
+  2 --> 5;
+  8 --> 5;
+  5 --> null;
+  ```
 
 ## Solution
 
