@@ -49,17 +49,14 @@ Explanation
 
 The Binary Tree below illustrates the sample:
 
-![Binary Tree](assets/binary_tree.png)
-
 ```mermaid
 graph TD;
-  1 --> 2;
-  3 --> 2;
-  6 --> 8;
-  9 --> 8;
-  2 --> 5;
-  8 --> 5;
-  5 --> null;
+  2 --> 1;
+  2 --> 3;
+  8 --> 6;
+  8 --> 9;
+  5 --> 2;
+  5 --> 8;
   ```
 
 ## Solution
