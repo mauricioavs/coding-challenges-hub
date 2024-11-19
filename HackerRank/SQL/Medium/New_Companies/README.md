@@ -124,10 +124,6 @@ In company C1, the only lead manager is LM1. There are two senior managers, SM1 
 
 In company C2, the only lead manager is LM2. There is one senior manager, SM3, under LM2. There are two managers, M2 and M3, under senior manager SM3. There is one employee, E3, under manager M2, and another employee, E4, under manager, M3.
 
-
-
-
-
 ## Solution
 
 Refer to the `solution.sql` file in same directory for the solution.
