@@ -1,21 +1,18 @@
-WITH RECURSIVE PRIME_NUMBERS AS (
-    SELECT 2 AS current_num
+WITH RECURSIVE Numbers AS ( 
+    SELECT 2 AS num 
     
     UNION ALL
+    
+    SELECT num + 1 
+    FROM Numbers 
+    WHERE num < 1000 
+), 
+nonprime AS ( 
+    SELECT N1.num
+    FROM Numbers N1
+    JOIN Numbers N2 ON N2.num < N1.num AND N1.num % N2.num = 0 
+) 
 
-    (
-        SELECT current_num+1
-        FROM PRIME_NUMBERS PN
-        WHERE NOT EXISTS(
-            SELECT 1
-            FROM PRIME_NUMBERS PN2
-            WHERE MOD(current_num+1, PN2.current_num) = 0
-        )
-    ) OR 
-    (
-        SELECT NULL FROM PRIME_NUMBERS
-        WHERE current_num <= 1000
-    )
-)
-
-SELECT * FROM PRIME_NUMBERS
+SELECT GROUP_CONCAT(num SEPARATOR '&') AS concatenated_value 
+FROM Numbers
+WHERE num NOT IN (SELECT num FROM nonprime)
