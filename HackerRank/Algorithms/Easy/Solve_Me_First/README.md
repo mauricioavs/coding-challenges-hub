@@ -38,14 +38,15 @@ Constraints
 *1 &le; a,b &le; 1000*
 
 Sample Input
-
+```
 a = 2  
-b = 3  
+b = 3
+```  
 
 Sample Output
-
+```
 5
-
+```
 Explanation
 
 *2+3=5*.
