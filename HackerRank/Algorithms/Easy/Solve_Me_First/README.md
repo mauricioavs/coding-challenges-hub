@@ -30,11 +30,12 @@ solveMeFirst has the following parameters:
 * int b: the second value  
 
 Returns
+
 - int: the sum of *a* and *b*
 
 Constraints
 
-*1 &le; a,b & &le; 1000*
+*1 &le; a,b &le; 1000*
 
 Sample Input
 
