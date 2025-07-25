@@ -3,6 +3,7 @@
 This repository contains solutions to coding problems from different platforms, such as:
 
 - [HackerRank](https://www.hackerrank.com/)
+- [LeetCode](https://leetcode.com/)
 
 ## Structure
 
